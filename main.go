@@ -51,7 +51,7 @@ type GlobalConfig struct {
 type versionCmd struct{}
 
 func (c *versionCmd) Name() string {
-	return "version"
+	return "versions"
 }
 
 func (c *versionCmd) Synopsis() string {
